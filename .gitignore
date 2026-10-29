@@ -1,0 +1,51 @@
+# Visual Studio 缓存、配置
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 编译输出目录
+**/bin/
+**/obj/
+x64/
+x86/
+AnyCPU/
+dist/
+
+# WPF 设计器缓存
+*.cache
+*.csproj.user
+
+# 发布输出
+Publish/
+publish/
+
+# NuGet 包
+packages/
+*.nupkg
+
+# 日志
+*.log
+
+# VS Code（如果你用vscode打开）
+.vscode/
+
+# Rider
+.idea/
+
+# SQLite 数据库及 WAL 副产物
+bloodgas.db
+*.db-shm
+*.db-wal
+
+# 运行时数据 / 归档 / 日志目录
+BGService/Archive/[0-9]*/
+logs/
+
+# 截图临时目录
+.screenshots/
+
+# 临时文件
+*.tmp
+*.bak
